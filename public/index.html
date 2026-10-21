@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c111c">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <title>Schichtplan · Kino Murnau</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="modulepreload" href="/app.js">
+  <link rel="modulepreload" href="/common.js">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">K</div>
+      <div class="brand-text"><strong>Kino Murnau</strong><span>Schichtplan</span></div>
+    </div>
+    <div class="who" id="who"></div>
+  </header>
+
+  <nav class="tabbar" id="tabbar" hidden aria-label="Bereiche"></nav>
+
+  <main class="wrap" id="view">
+    <div class="spinner" aria-label="Lädt"></div>
+  </main>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

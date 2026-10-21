@@ -1,0 +1,10 @@
+{
+  "name": "Schichtplan Kino Murnau",
+  "short_name": "Schichtplan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c111c",
+  "theme_color": "#0c111c",
+  "lang": "de",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
